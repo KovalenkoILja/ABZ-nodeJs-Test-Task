@@ -1,0 +1,28 @@
+{
+  "name": "abz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Task 1.js",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "imap": "^0.8.19",
+    "mailparser": "^2.7.1",
+    "puppeteer": "^1.18.0",
+    "simple-node-logger": "^18.12.22",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KovalenkoILja/ABZ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KovalenkoILja/ABZ/issues"
+  },
+  "homepage": "https://github.com/KovalenkoILja/ABZ#readme"
+}
