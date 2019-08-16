@@ -14,3 +14,57 @@
 08:26:54.713 INFO  config.Password: BcVkA2zkjWE6PZf 
 08:26:55.769 INFO  Registration URL: http://email-tracking.tmforum.org/track/click/30287300/www.tmforum.org?p=eyJzIjoiZ0xtUW13Z1Zodk94RHNBc01GUmdaclZLRkVFIiwidiI6MSwicCI6IntcInVcIjozMDI4NzMwMCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d3dy50bWZvcnVtLm9yZ1xcXC8_cGFnZT1nZl9hY3RpdmF0aW9uJmtleT02Y2YxMjQ1ZWJlZDk5NzMxXCIsXCJpZFwiOlwiMzBjNmNhYjM5ODBmNGIzNjlhODlhNzAzNTg3OTQ1NWNcIixcInVybF9pZHNcIjpbXCI0N2I4OWM1ZWRjYjM4NzI2MzUwMTI4MWI2OGM0MWUyMTZlMGRmNDY1XCJdfSJ9 
 08:27:02.658 INFO  ./Task1Screenshots/Final.png successfully created 
+17:35:00.226 INFO  config.Email: mailru_2019_22_06@mail.ru 
+17:35:00.227 INFO  config.Password: BcVkA2zkjWE6PZf 
+17:35:00.227 INFO  /Task1Screenshots successfully created 
+17:35:11.774 INFO  ./Task1Screenshots/Start.png successfully created 
+17:35:11.775 INFO  faker firstName: Clementina 
+17:35:11.775 INFO  faker lastName: Bradtke 
+17:35:11.775 INFO  faker company: Clementina Bradtke 
+17:35:11.775 INFO  faker password: 0aYLCZys5jPMokW 
+17:35:11.775 INFO  faker phone: 1-125-910-7181 
+17:35:11.775 INFO  faker jobTitle: Central Division Manager 
+17:35:11.775 INFO  faker countryCode: um 
+17:38:55.585 INFO  config.Email: mailru_2019_22_06@mail.ru 
+17:38:55.585 INFO  config.Password: BcVkA2zkjWE6PZf 
+17:38:55.585 INFO  /Task1Screenshots successfully created 
+17:39:05.723 INFO  ./Task1Screenshots/Start.png successfully created 
+17:39:05.724 INFO  faker firstName: Josefina 
+17:39:05.724 INFO  faker lastName: Hickle 
+17:39:05.724 INFO  faker company: Josefina Hickle 
+17:39:05.724 INFO  faker password: vLaJlC3xe9RRTrP 
+17:39:05.724 INFO  faker phone: 1-059-677-0680 
+17:39:05.724 INFO  faker jobTitle: Global Configuration Designer 
+17:39:05.724 INFO  faker countryCode: cw 
+17:39:09.833 INFO  ./Task1Screenshots/FullyFilled.png successfully created 
+17:39:13.344 INFO  ./Task1Screenshots/Next1Click.png successfully created 
+18:07:38.604 INFO  config.Email: mailru_2019_22_06@mail.ru 
+18:07:38.604 INFO  config.Password: BcVkA2zkjWE6PZf 
+18:07:38.605 INFO  /Task1Screenshots successfully created 
+18:12:11.445 INFO  config.Email: mailru_2019_22_06@mail.ru 
+18:12:11.445 INFO  config.Password: BcVkA2zkjWE6PZf 
+18:12:11.446 INFO  /Task1Screenshots successfully created 
+12:13:46.239 ERROR fs is not defined
+{}
+ReferenceError: fs is not defined
+    at CreateFolder (C:\Users\Ilja\WebstormProjects\ABZ\Task 3.js:63:5)
+    at main (C:\Users\Ilja\WebstormProjects\ABZ\Task 3.js:23:9)
+    at Object.<anonymous> (C:\Users\Ilja\WebstormProjects\ABZ\Task 3.js:58:3)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Function.Module.runMain (module.js:693:10)
+    at startup (bootstrap_node.js:191:16) 
+12:14:22.110 INFO  /Task3Screenshots successfully created 
+12:14:34.720 INFO  ./Task3Screenshots/Start.png successfully created 
+12:15:33.087 INFO  /Task3Screenshots successfully created 
+12:23:32.498 INFO  /Task3Screenshots successfully created 
+12:23:37.037 INFO  ./Task3Screenshots/Start.png successfully created 
+12:25:17.650 INFO  /Task3Screenshots successfully created 
+12:25:21.546 INFO  ./Task3Screenshots/Start.png successfully created 
+13:36:15.442 INFO  /Task3Screenshots successfully created 
+13:36:20.141 INFO  ./Task3Screenshots/Start.png successfully created 
+13:36:29.872 INFO  /Task3Screenshots successfully created 
+13:36:33.949 INFO  ./Task3Screenshots/Start.png successfully created 

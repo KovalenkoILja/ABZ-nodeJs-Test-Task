@@ -6,7 +6,17 @@ https://www.google.com/recaptcha/api2/demo
 
 "use strict";
 
-const puppeteer = require('puppeteer');
+//const puppeteer = require('puppeteer');
+
+const puppeteer = require('puppeteer-extra');
+const fs = require('fs');
+
+const RecaptchaPlugin = require('puppeteer-extra-plugin-recaptcha');
+const recaptchaPlugin = RecaptchaPlugin({
+    provider: { id: '2captcha', token: 'XXXXXXX' , visualFeedback: true }
+});
+puppeteer.use(recaptchaPlugin);
+
 const log = require('simple-node-logger').createSimpleLogger('task1.log');
 
 const url = 'https://www.google.com/recaptcha/api2/demo';
@@ -29,8 +39,10 @@ const puppeteerOptions = {
     }
     const browser = await puppeteer.launch(puppeteerOptions).catch(function (error) {
         console.log(error);
-        log.error(e);
+        log.error(error);
     });
+
+    puppeteer.use(recaptchaPlugin);
 
     const page = await browser.newPage();
 
@@ -38,14 +50,23 @@ const puppeteerOptions = {
 
     await page.goto(url, {waitUntil: 'networkidle0'});
 
-    await MakeScreenShot(page, './Task1Screenshots/Start.png');
+    await MakeScreenShot(page, './Task3Screenshots/Start.png');
 
+    await page.solveRecaptchas();
+
+    await Promise.all([
+        page.waitForNavigation(),
+        page.click('#recaptcha-demo-submit')
+    ]);
+    await page.screenshot({ path: './Task3Screenshots/response.png', fullPage: true });
+/*
     const requestId = await initiateCaptchaRequest(apiKey);
 
     const response = await pollForRequestResults(apiKey, requestId);
 
-    await page.evaluate(`document.getElementById("g-recaptcha-response").innerHTML="${response}";`);
+    await page.evaluate(`document.getElementById("g-recaptcha-response").innerHTML="${response}";`);*/
 
+    //await browser.close();
 })();
 
 function CreateFolder() {
